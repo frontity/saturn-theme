@@ -83,7 +83,6 @@ const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  color: ${({ theme }) => theme.colors.evilGrey};
   padding: 10px;
   margin-top: 10px;
 `;
@@ -91,10 +90,10 @@ const Container = styled.div`
 const LoadButton = styled.button`
   height: 60px;
   padding: 0 25px;
-  color: ${({ theme }) => theme.colors.white};
   border: none;
   border-radius: 5px;
-  background-color: ${({ theme }) => theme.colors.background};
+  color: ${({ theme }) => theme.colors.altText};
+  background-color: ${({ theme }) => theme.colors.altBackground};
   display: flex;
   align-items: center;
   justify-content: center;
