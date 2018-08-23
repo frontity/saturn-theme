@@ -25,5 +25,5 @@ const Text = styled.p`
   font-weight: 600;
   width: 40vw;
   text-align: center;
-  color: ${({ theme }) => theme.colors.grey};
+  color: ${({ theme }) => theme.colors.white};
 `;

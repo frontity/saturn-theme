@@ -50,13 +50,13 @@ export const getInnerText = htmlString => {
 export const getAltBackground = colorCode => {
   const color = Color(colorCode);
   const white = Color('white');
-  return getContrast(color, white) < 3 ? '#000' : colorCode;
+  return getContrast(color, white) > 1.6 ? colorCode : '#000';
 };
 
 export const getAltText = colorCode => {
   const color = Color(colorCode);
   const white = Color('white');
-  return getContrast(color, white) < 3 ? '#FFF' : colorCode;
+  return getContrast(color, white) > 1.6 ? getBlackOrWhite(colorCode) : '#FFF';
 };
 
 // This function gets the main theme color from database end returns the theme props.

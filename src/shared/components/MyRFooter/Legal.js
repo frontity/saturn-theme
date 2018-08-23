@@ -6,19 +6,27 @@ const Legal = () => (
   <Container>
     <List>
       <Item>
-        <Link href="https://www.mediosyredes.com/aviso-legal/" rel="noopener" target="_blank">
+        <Link
+          href="https://www.mediosyredes.com/aviso-legal/"
+          rel="noopener"
+          target="_blank"
+        >
           Aviso legal
         </Link>
       </Item>
       <Item>
-        <Link href="https://www.mediosyredes.com/politica/" rel="noopener" target="_blank">
+        <Link
+          href="https://www.mediosyredes.com/politica/"
+          rel="noopener"
+          target="_blank"
+        >
           Política de privacidad y cookies
         </Link>
       </Item>
     </List>
     <Text>
-      © Contenidos bajo licencia Creative Commons (CC) 1995-2017 Medios y Redes Online. Otros
-      contenidos se cita fuente
+      © Contenidos bajo licencia Creative Commons (CC) 1995-2017 Medios y Redes
+      Online. Otros contenidos se cita fuente
     </Text>
   </Container>
 );
@@ -61,5 +69,5 @@ const Text = styled.p`
 `;
 
 const Link = styled.a`
-  color: ${({ theme }) => theme.colors.grey};
+  color: ${({ theme }) => theme.colors.white};
 `;

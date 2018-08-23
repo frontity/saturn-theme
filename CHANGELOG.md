@@ -1,3 +1,27 @@
+# [0.9.0](https://github.com/frontity/saturn-theme/compare/v0.8.1...v0.9.0) (2018-08-23)
+
+
+### Bug Fixes
+
+* **content:** fixes col tag bug in AMP and refactors processors ([4b56827](https://github.com/frontity/saturn-theme/commit/4b56827))
+* **myr-footer:** adds new sites ([2806740](https://github.com/frontity/saturn-theme/commit/2806740))
+* **myr-footer:** ads for dominiomundial.com ([b60af75](https://github.com/frontity/saturn-theme/commit/b60af75))
+* **myr-footer:** ads for solorecetas.com ([5636a2a](https://github.com/frontity/saturn-theme/commit/5636a2a))
+* **myr-footer:** changes Worona for Frontity ([990ad0e](https://github.com/frontity/saturn-theme/commit/990ad0e))
+
+
+### Features
+
+* **content:** adds support for twitter videos ([b9a7037](https://github.com/frontity/saturn-theme/commit/b9a7037))
+
+## [0.8.1](https://github.com/frontity/saturn-theme/compare/v0.8.0...v0.8.1) (2018-08-17)
+
+
+### Bug Fixes
+
+* **content:** fixes iframe's height in AMP ([5a5e738](https://github.com/frontity/saturn-theme/commit/5a5e738))
+* **media:** fixes SmartAd component missing mstId ([dc947c4](https://github.com/frontity/saturn-theme/commit/dc947c4))
+
 # [0.8.0](https://github.com/frontity/saturn-theme/compare/v0.7.3...v0.8.0) (2018-08-16)
 
 
