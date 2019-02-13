@@ -3,6 +3,7 @@ import tzGallery from './tzGallery';
 import dmGallery from './dmGallery';
 import myrGallery from './myrGallery';
 import myrTiledGallery from './myrTiledGallery';
+import infogram from './infogram';
 import { textCounter, injectSlot } from './injectSlots';
 
 export default [
@@ -13,4 +14,5 @@ export default [
   dmGallery,
   myrGallery,
   myrTiledGallery,
+  infogram,
 ];
